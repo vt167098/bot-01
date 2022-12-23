@@ -1,0 +1,96 @@
+[2022-12-22 15:44:20.804] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 15:44:20.894] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 832 ms
+[2022-12-22 15:44:21.472] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [start] [220] - Tomcat started on port(s): 8004 (http) with context path ''
+[2022-12-22 16:39:39.844] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:39:39.931] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 824 ms
+[2022-12-22 16:39:40.025] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:46:14.093] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:46:14.183] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 793 ms
+[2022-12-22 16:46:14.283] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:47:54.313] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:47:54.400] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 871 ms
+[2022-12-22 16:47:54.498] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:49:13.436] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:49:13.530] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 895 ms
+[2022-12-22 16:49:13.633] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:52:10.634] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:52:10.721] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 846 ms
+[2022-12-22 16:52:10.821] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:53:33.195] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:53:33.286] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 844 ms
+[2022-12-22 16:53:33.393] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:54:34.517] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:54:34.609] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 857 ms
+[2022-12-22 16:54:34.717] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 16:57:38.815] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 16:57:38.908] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 864 ms
+[2022-12-22 16:57:39.017] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-22 17:01:13.620] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-22 17:01:13.714] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 835 ms
+[2022-12-22 17:01:14.236] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [start] [220] - Tomcat started on port(s): 8004 (http) with context path ''
+[2022-12-23 13:57:36.083] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-23 13:57:36.202] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 781 ms
+[2022-12-23 13:57:36.699] [INFO ] [main]
+				[o.s.b.a.l.ConditionEvaluationReportLoggingListener] [logMessage] [136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-12-23 14:21:53.055] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-23 14:21:53.171] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 931 ms
+[2022-12-23 14:21:53.779] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [start] [220] - Tomcat started on port(s): 8004 (http) with context path ''
+[2022-12-23 14:32:54.532] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [initialize] [108] - Tomcat initialized with port(s): 8004 (http)
+[2022-12-23 14:32:54.639] [INFO ] [main]
+				[o.s.b.w.s.c.ServletWebServerApplicationContext] [prepareWebApplicationContext] [292] - Root WebApplicationContext: initialization completed in 930 ms
+[2022-12-23 14:32:55.212] [INFO ] [main]
+				[o.s.boot.web.embedded.tomcat.TomcatWebServer] [start] [220] - Tomcat started on port(s): 8004 (http) with context path ''

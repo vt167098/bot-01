@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.gfc</groupId>
+	<artifactId>bot-01</artifactId>
+	<version>1.0.0</version>
+	<name>bot-01</name>
+	<description>機器人服務</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20220924</version>
+		</dependency>
+		<dependency>	
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+					<includeSystemScope>true</includeSystemScope>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.3.1</version>
+				<configuration>
+					<from>
+						<image>adoptopenjdk/openjdk11:x86_64-alpine-jre-11.0.15_10</image>
+					</from>
+					<to>
+						<image>gfc/bot01</image>
+						<auth>
+							<username>vt167098</username>
+							<password>abc123</password>
+						</auth>
+					</to>
+					<container>
+						<!--jvm内存参数 -->
+						<jvmFlags>
+							<jvmFlag>-Xms512m</jvmFlag>
+							<jvmFlag>-Xmx2g</jvmFlag>
+							<jvmFlag>-Djava.awt.headless=true</jvmFlag>
+							<jvmFlag>-Duser.timezone=Asia/Taipei</jvmFlag>  <!-- 这里就是重点了 -->
+							<jvmFlag>-Dspring.profiles.active=prod</jvmFlag>
+						</jvmFlags>
+						<!--要暴露的端口 -->
+						<ports>
+							<port>8004</port>
+						</ports>
+						<!--使用该参数将镜像的创建时间与系统时间一致 -->
+						<!--<useCurrentTimestamp>true</useCurrentTimestamp> -->
+						<creationTime>USE_CURRENT_TIMESTAMP</creationTime>
+						<!--解决Could not find or load main class ${start-class} -->
+						<mainClass>com.gfc.bot01.Bot01Application</mainClass>
+						<!-- 设置时区 -->
+						<environment>
+							<TZ>Asia/Taipei</TZ>
+						</environment>
+						<volumes>
+							<volume>/logs</volume>
+						</volumes>
+					</container>
+					<allowInsecureRegistries>true</allowInsecureRegistries>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>dockerBuild</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
