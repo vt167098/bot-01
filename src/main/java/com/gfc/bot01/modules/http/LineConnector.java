@@ -13,7 +13,7 @@ public class LineConnector {
   private final String LINE_REPLY_API = "https://api.line.me/v2/bot/message/reply";
   private final String LINE_MULTICAST_API = "https://api.line.me/v2/bot/message/multicast";
   private final String LINE_NARROWCAST_API = "https://api.line.me/v2/bot/message/narrowcast";
-private final String LINE_BROADCAST_API = "https://api.line.me/v2/bot/message/broadcast";
+  private final String LINE_BROADCAST_API = "https://api.line.me/v2/bot/message/broadcast";
 
   private static LineConnector instance;
   private OKHttpExecuter executer;
